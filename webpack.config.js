@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
     mode: 'development', 
-    entry: './src/index.js',
+    entry: './inputFolder/input.js',
     output: {
         path: path.resolve(__dirname, 'output'), 
-        filename: 'optim.js'
+        filename: 'index.js'
     }, 
     watch: true
 }
